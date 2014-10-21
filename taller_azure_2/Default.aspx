@@ -10,13 +10,18 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        &nbsp;<asp:Label ID="Label1" runat="server" Style="left: 356px; position: relative;
-            top: 0px" Text="Label"></asp:Label>
-        <asp:Label ID="Label2" runat="server" Style="position: static" Text="Escriba su Frase"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" Style="left: 19px; position: relative;
-            top: 1px"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Style="left: -95px;
-            position: relative; top: 58px" Text="Probar" /></div>
+        &nbsp;<asp:Label ID="Label1" runat="server" Style="left: 310px; position: relative;
+            top: 210px" Text="Label"></asp:Label>&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" Style="left: 298px; position: relative;
+            top: 159px"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Style="left: 28px;
+            position: relative; top: 214px" Text="Probar" />
+        <asp:Panel ID="Panel1" runat="server" Height="210px" Style="left: 214px; position: relative;
+            top: 103px" Width="428px">
+        <asp:Label ID="Label2" runat="server" Style="position: relative; left: 10px; top: 17px;" Text="Escriba su Frase"></asp:Label>
+            <asp:Image ID="Image1" runat="server" ImageAlign="Middle" Style="left: 88px; position: relative;
+                top: 143px" /></asp:Panel>
+    </div>
     </form>
 </body>
 </html>
